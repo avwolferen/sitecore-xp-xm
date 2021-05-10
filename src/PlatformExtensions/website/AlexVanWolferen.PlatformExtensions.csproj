@@ -100,7 +100,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Platform\VisitorIdentification.config" />
+    <Content Include="App_Config\Environment\VisitorIdentification.config" />
     <None Include="AlexVanWolferen.PlatformExtensions.NoReferences.nuspec" />
     <None Include="AlexVanWolferen.PlatformExtensions.nuspec" />
     <None Include="AlexVanWolferen.PlatformExtensions.wpp.targets" />

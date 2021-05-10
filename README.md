@@ -1,7 +1,7 @@
 # Building for Sitecore XP and XM at the same time
 This little project is intended to provide flexibility when you are building platforms that need to be able to run on Sitecore XP as well as on Sitecore XM without changing the way that you do the VisitorIdentification.
 
-Read more in my blogpost for the entire story at [Tips on how to build for Sitecore XP and XM](https://www.alexvanwolferen.nl/tip-on-how-to-build-for-sitecore-xp-and-xm)
+Read more in my blogpost for the entire story at [Tips on how to build for Sitecore XP and XM](https://www.alexvanwolferen.nl/visitoridentification-and-how-to-deal-with-sitecore-xp-and-xm)
 
 # How to use this?
 ## Step 1 - Add topology appsetting

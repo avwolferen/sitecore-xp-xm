@@ -4,12 +4,12 @@
   <PropertyGroup>
     <ExcludeFilesFromDeployment>
       AlexVanWolferen.PlatformExtensions.wpp.targets;
+      bin\Sitecore.*;
+      bin\roslyn\**;
       *.config;
       *.nuspec;
       *.ps1;
     </ExcludeFilesFromDeployment>
-    <!-- Do not apply Access Control Lists to the webserver -->
-    <!--<IncludeSetACLProviderOnDestination>False</IncludeSetACLProviderOnDestination>-->
     <PackageDependsOn>
       $(PackageDependsOn);
     </PackageDependsOn>
