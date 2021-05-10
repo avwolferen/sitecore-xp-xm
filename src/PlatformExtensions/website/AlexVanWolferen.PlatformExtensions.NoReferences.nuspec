@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AlexVanWolferen.PlatformExtensions.NoReferences</id>
+    <version>$Version$</version>
+    <description>Sitecore 10.0.1 PlatformExtensions.NoReferences for usage when you don't want the configuration file.</description>
+    <authors>Alex van Wolferen</authors>
+    <owners>Alex van Wolferen</owners>
+  </metadata>
+  <files>
+    <file src="bin\AlexVanWolferen.PlatformExtensions.dll" target="lib\net48" />
+    <file src="bin\AlexVanWolferen.PlatformExtensions.pdb" target="lib\net48" />
+    <file src="Install.ps1" target="tools"/>
+  </files>
+</package>

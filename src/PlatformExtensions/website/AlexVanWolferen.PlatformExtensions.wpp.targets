@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project ToolsVersion="4.0"
+         xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ExcludeFilesFromDeployment>
+      AlexVanWolferen.PlatformExtensions.wpp.targets;
+      *.config;
+      *.nuspec;
+      *.ps1;
+    </ExcludeFilesFromDeployment>
+    <!-- Do not apply Access Control Lists to the webserver -->
+    <!--<IncludeSetACLProviderOnDestination>False</IncludeSetACLProviderOnDestination>-->
+    <PackageDependsOn>
+      $(PackageDependsOn);
+    </PackageDependsOn>
+    <BuildDependsOn>
+      $(BuildDependsOn);
+    </BuildDependsOn>
+  </PropertyGroup>
+</Project>
